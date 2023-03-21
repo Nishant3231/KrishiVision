@@ -14,13 +14,26 @@ a {
 * {
   box-sizing: border-box;
 }
+.fertilizer-main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.fertilizer-main-container h1 {
+  margin: 0;
 
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */
+}
+.fertilizer-form-container  {
+  margin-top: 20px;
+  width: 25%;
+}
+.fertilizer-form-container input , button {
+  padding:10px;
+  margin:5px;
+  width: 100%;
+}
+button{
+  cursor: pointer;
+}

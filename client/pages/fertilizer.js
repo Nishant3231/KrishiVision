@@ -5,10 +5,10 @@ export default function Fertilizer() {
   return (
     <div>
         <Navbar/>
-        <div>
+        <div className="fertilizer-main-container">
             <h1>Provide soil info and plant you want to grow. </h1>
             <h1> We will recommend you which fertilizer you should use. </h1>
-            <div>
+            <div className='fertilizer-form-container'>
                 <div>
                     <input type="number" placeholder="Enter nitrogen value"/>
                 </div>
