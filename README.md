@@ -140,11 +140,11 @@
 
 <div>
 <h2>📊 Data Source <h2>
-<h4>
+
 - <a href="https://www.kaggle.com/atharvaingle/crop-recommendation-dataset" target="_blank">Crop recommendation dataset</a> (custom built dataset)<br>
 - <a href="https://github.com/Gladiator07/Harvestify/blob/master/Data-processed/fertilizer.csv" target="_blank">Fertilizer suggestion dataset</a> (custom built dataset)<br>
 - <a href="https://www.kaggle.com/vipoooool/new-plant-diseases-dataset" target="_blank">Disease detection dataset</a> (custom built dataset)<br>
-</h4><br></div><br>
+<br></div><br>
 
 <div>
 <h2>🛠️ Built with </h2>
@@ -163,6 +163,16 @@
 <code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/pytorch/pytorch/39fa0b5d0a3b966a50dcd90b26e6c36942705d6d/docs/source/_static/img/pytorch-logo-dark.svg"></code>
 </div>
+<br><br>
+
+<div>
+<h2> 🤝 Contributors and Roles<h2>
+<h4>
+- <a href="https://github.com/Ankit-cg22" target="_blank">Ankit Das</a> (Backend and Deplyoment)<br>
+- <a href="https://github.com/Nishant3231" target="_blank">Nishant Tiwari</a> (Frontend)<br>
+- <a href="https://github.com/harshiitsingh" target="_blank">Harshit Singh</a> (Model Creation and Documentation)<br>
+- <a href="https://github.com/aryan7781" target="_blank">Aryan Sinha</a> (Model Creation and Documentation)<br>
+</h4><br></div><br>
 
 <div align="center">
  <h5> Made with <picture>
