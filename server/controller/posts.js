@@ -11,10 +11,11 @@ const getAllPosts = async(req , res) => {
 
 const createPost = async (req, res) => {
     const title = req.body.title;
+    const description = req.body.description;
     const image = req.body.image;
     
     try {
-      const post = new postModel({ title, image });
+      const post = new postModel({ title, description , image });
       const newpost = await post.save();
       res.status(201).json({msg : "Inserted successfully" , newpost});
     } catch (err) {
