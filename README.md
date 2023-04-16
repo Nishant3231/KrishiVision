@@ -38,7 +38,17 @@
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f331/512.gif" alt="🌱" width="32" height="32">
 </picture> Introduction :</h2><i>
 <ul>
-<li>This is a Machine Learning, Deep Learning and Web based project which will help farmers before harvesting the crop and connect with the agricultural specialists. </li>
+<li>This is a Machine Learning, Deep Learning and Web based project which will help farmers before harvesting the crop and connect with the agricultural specialists. The agrotech industry is constantly evolving and seeking innovative solutions to ensure efficient and sustainable farming practices. This project aims to address the challenges of crop disease, soil type, and fertilizer recommendation through Machine Learning and Deep Learning algorithms. The project involves the development of a web application that can predict crop diseases using images and recommend the best crops based on soil types, as well as provide fertilizer recommendations. The web application also includes a community forum for farmers to share knowledge and insights.
+
+Crop recommendation is going to recommend you the best crop you can grow on your land as per the soil nutrition value and along with the climate in that region. And recommending the best fertilizer for every particular crop is also a challenging task. And the other and most important issue is when a plant gets caught by heterogeneous diseases that affect less amount of agriculture production and compromises quality as well. To overcome all these issues this recommendation has been proposed. Nowadays a lot of research and work is being implemented in the smart and modern agriculture domain.
+
+The first step of the project is to build a dataset of crop images, categorizing them based on healthy and diseased states. The images will be preprocessed to improve their quality and prepare them for feeding into the machine learning and deep learning models. Once the dataset is prepared, it will be used to train and validate the model. The model will use convolutional neural networks (CNN) for image classification and prediction.
+
+After the model is trained, it will be deployed on a web application that allows farmers to upload images of their crops and receive a prediction on whether the crops are healthy or diseased. The application will also suggest the best crops based on the soil type and provide fertilizer recommendations. This information will be provided through an easy-to-use interface, enabling farmers to make informed decisions about their crops.
+
+The web application will also include a community forum for farmers to share knowledge and insights. This forum will allow farmers to ask questions, share experiences, and learn from each other. By creating a community, the project aims to promote collaboration and knowledge sharing among farmers, which can ultimately lead to better farming practices.
+
+In conclusion, this project aims to leverage the power of Machine Learning and Deep Learning to provide solutions to the challenges of crop disease, soil type, and fertilizer recommendation in the agrotech industry. The web application will provide farmers with easy-to-use tools to make informed decisions about their crops and a community forum to share knowledge and insights. Ultimately, this project aims to promote sustainable and efficient farming practices through technology. </li>
   </ul>
 <br>
 
