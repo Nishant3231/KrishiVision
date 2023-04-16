@@ -182,8 +182,8 @@ In conclusion, this project aims to leverage the power of Machine Learning and D
 <h4>
 - <a href="https://github.com/Ankit-cg22" target="_blank">Ankit Das</a> (Backend and Deplyoment)<br>
 - <a href="https://github.com/Nishant3231" target="_blank">Nishant Tiwari</a> (Frontend)<br>
-- <a href="https://github.com/harshiitsingh" target="_blank">Harshit Singh</a> (Model Creation and Documentation)<br>
-- <a href="https://github.com/aryan7781" target="_blank">Aryan Sinha</a> (Model Creation and Documentation)<br>
+- <a href="https://github.com/harshiitsingh" target="_blank">Harshit Singh</a> (ML Model Creation and Documentation)<br>
+- <a href="https://github.com/aryan7781" target="_blank">Aryan Sinha</a> (ML Model Creation)<br>
 </h4><br></div><br>
 
 <div align="center">
