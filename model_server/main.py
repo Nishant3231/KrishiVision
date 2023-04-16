@@ -63,7 +63,7 @@ def preprocess_image(img):
 @app.route("/predict/crop-recommendation", methods=["POST"])
 def predictCropRecommendation():
     # crop recommendation model
-    modelCropRec = load("./model/crop_recommendation_model.pkl")
+    modelCropRec = load("../models/crop_recommendation_model.pkl")
     print(type(modelCropRec))
 
     data = request.get_json(force=True)
@@ -85,11 +85,12 @@ def predictCropRecommendation():
 @app.route("/predict/disease", methods=["POST"])
 def predictDisease():
     # load the model
-    model = tf.keras.models.load_model("./model/RESNET50_PLANT_DISEASE.h5")
+    model = tf.keras.models.load_model("../models/RESNET50_PLANT_DISEASE.h5")
 
     # get the image from the request
     img_file = request.files["image"]
-    img = cv2.imdecode(np.frombuffer(img_file.read(), np.uint8), cv2.IMREAD_COLOR)
+    img = cv2.imdecode(np.frombuffer(
+        img_file.read(), np.uint8), cv2.IMREAD_COLOR)
     # preprocess the image
     img = preprocess_image(img)
 

@@ -9,6 +9,20 @@ const getAllPosts = async(req , res) => {
     }
 }
 
+const getPostById = async(req , res) => {
+  const {id} = req.params ;
+  console.log(id);
+  try {
+    const postId = new mongoose.Types.ObjectId(id)
+    const post = await postModel.findById(postId);
+    if(!post) return res.status(400).json({msg : "No post with the provided id."})
+    res.status(200).json({data : post})
+  } catch (error) {
+    console.log(error)
+    res.status(500).json({msg : "Internal server error"})
+  }
+}
+
 const createPost = async (req, res) => {
     const title = req.body.title;
     const description = req.body.description;
@@ -40,4 +54,4 @@ const createComment = async (req, res) => {
     } 
   }
 
-module.exports = {createPost , createComment , getAllPosts}
+module.exports = {createPost , createComment , getAllPosts , getPostById}

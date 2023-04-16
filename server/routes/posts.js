@@ -1,8 +1,10 @@
-const { createPost, createComment, getAllPosts } = require('../controller/posts')
+const { createPost, createComment, getAllPosts, getPostById } = require('../controller/posts')
 
 const router = require('express').Router() 
 
 router.get('/' , getAllPosts)
+
+router.get('/:id' , getPostById)
 
 router.post('/', createPost);
 
