@@ -1,7 +1,7 @@
 # KrishiVision
 <u></u>
 
-<h2>A Project for GeeksforGeeks Hack-a-thon, <b><u>Solving for India</u></b> - IIIT Bhubaneswar, Powered By Google Cloud & AMD</h2>
+<h2>A Project for GeeksforGeeks Hack-a-thon, <b><u>Solving for India</u></b> - IIIT Bhubaneswar, Powered By Google Cloud & AMD 2023</h2>
 <!-- ## Description and Features
 
 
