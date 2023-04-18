@@ -12,7 +12,7 @@ export default function Community() {
     const[baseImage , setBaseImage] = useState("")
 
     const uploadImage = async (e) => {
-        const file = e.target.files[0]
+    const file = e.target.files[0]
     const base64 = await convertbase64(file);
     console.log(base64);
     setBaseImage(base64);

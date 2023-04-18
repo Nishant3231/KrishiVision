@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { resolve } from 'styled-jsx/css';
 import Button from 'react-bootstrap/Button';
 import styles from '../styles/Home.module.css'
+import axios from 'axios'
 
 export default function Disease() {
 
@@ -32,6 +33,12 @@ export default function Disease() {
             }
         })
     }
+
+    const predict = () =>{
+        axios.post("https://localhost:5000/predict/disease" , {image : baseImage})
+        .then(res => console.log(res))
+        .catch(err => console.log(err))
+    }
   return (
     <div>
         <Navbar/>
@@ -42,7 +49,7 @@ export default function Disease() {
                 <div>
                     <input type="file" placeholder="Enter the crop image" onChange={(e) => {uploadImage(e)}} />
                 </div>
-                <button>Predict</button>
+                <button onClick={predict}>Predict</button>
             </div>
         </div>
         <h2>
